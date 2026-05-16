@@ -21,6 +21,6 @@ class ActividadApplicationTests {
 		estudiante.setEmail("yoel@correo.com");
 
 		// Comprobamos si el nombre asignado es realmente "Yoel"
-		assertEquals("Yoel Falla", estudiante.getNombre());
+		assertEquals("Yoel", estudiante.getNombre());
 	}
 }
